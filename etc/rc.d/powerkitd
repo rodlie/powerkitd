@@ -1,0 +1,17 @@
+#!/bin/sh
+#
+# $NetBSD: powerkitd,v 1.0 2026/09/26 rodlie Exp $
+#
+
+# PROVIDE: powerkitd
+# REQUIRE: dbus
+# BEFORE:  LOGIN
+
+$_rc_subr_loaded . /etc/rc.subr
+
+name="powerkitd"
+rcvar=$name
+command="/usr/pkg/sbin/${name}"
+
+load_rc_config $name
+run_rc_command "$1"
