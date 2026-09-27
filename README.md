@@ -1,6 +1,6 @@
 # powerkitd
 
-![powerkitd](docs/powerkitd.svg)
+<img src="docs/powerkitd.svg" width="128">
+
 
 Desktop power daemon for NetBSD.
-
