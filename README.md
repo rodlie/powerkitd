@@ -1,2 +1,6 @@
 # powerkitd
-Power Daemon for NetBSD
+
+![powerkitd](docs/powerkitd.svg)
+
+Desktop power daemon for NetBSD.
+
